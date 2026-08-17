@@ -1,10 +1,12 @@
 function sortear() {
-    let quantidadeDeNumeros = document.getElementById("quantidade").value;
-    let doNumero = document.getElementById("de").value;
-    let ateNumero = document.getElementById("ate").value;
+    let quantidadeDeNumeros = parseInt(document.getElementById("quantidade").value);
+    let doNumero = parseInt(document.getElementById("de").value);
+    let ateNumero = parseInt(document.getElementById("ate").value);
 
-    
-    alert(`quantidade de numeros ${quantidadeDeNumeros}`)
-    alert(`do numero ${doNumero}`)
-    alert(`ate o numero ${ateNumero}`)
+    let numero = obterNumero(doNumero , ateNumero)
+    alert(`numero sorteado ${numero}`)
+
+}
+function obterNumero(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
 }
