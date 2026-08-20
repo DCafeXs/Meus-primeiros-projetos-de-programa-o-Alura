@@ -4,11 +4,11 @@ Este repositório contém os projetos que foram a minha porta de entrada no mund
 
 ## Projetos inclusos:
 
-*   **1. Jogo do Amigo Secreto**
-*   **2. Sorteador de Números**
-*   **3. Carrinho de Compras**
-*   **4. Ingresso**
-*   **5. Amigo Secreto** (versão aprimorada)
+* [1. Jogo do Amigo Secreto](./jogo-do-numero-secreto)
+* [2. Sorteador de Números](./sorteador-numeros)
+* [3. Carrinho de Compras](./carrinho-compras)
+* [4. Ingresso](./ingresso)
+* [5. AluGames](./alugames)
 
 ---
 
